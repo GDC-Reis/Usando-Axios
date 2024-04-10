@@ -15,7 +15,7 @@ const RequestPOST = () => {
              })
     }, []);
 
-    function createPost(){
+    function createPost(){ // Cria a função createPost
         axios.post(baseURL, { // Realiza o POST na constante baseURL 
             title: "Hello World", // Passando os valores title e
             body: "This is a new post.", // Body da requisição
